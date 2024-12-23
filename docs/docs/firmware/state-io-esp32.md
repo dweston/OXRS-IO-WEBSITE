@@ -1,13 +1,13 @@
 ---
-tags: ["OXRS-SHA-StateIO-ESP32", "URC", "RACK32"]
+tags: ["OXRS-IO-StateIO-ESP-FW", "URC", "RACK32"]
 ---
 # State IO ESP32
 <p class="maker">by <b>moin</b></p>
 
-> SKU: OXRS-SHA-StateIO-ESP32-FW
+> SKU: OXRS-IO-StateIO-ESP-FW
 
 ## Introduction
-This FW combines the functionality of [OXRS-SHA-StateMonitor-ESP32](/docs/firmware/state-monitor-esp32.md) and [OXRS-SHA-StateController-ESP32](/docs/firmware/state-controller-esp32.md).
+This FW combines the functionality of [OXRS-IO-StateMonitor-ESP32](/docs/firmware/state-monitor-esp32.md) and [OXRS-IO-StateController-ESP32](/docs/firmware/state-controller-esp32.md).
 
 To perform this combined functionality the available number of 128x I/O lines is split into input and output partitions. The split can be configured at runtime.
 
@@ -35,7 +35,7 @@ All the functionality of the [StateMonitor](/docs/firmware/state-monitor-esp32.m
 
 
 ## Downloads
-Download the latest version of the firmware on [Github](https://github.com/SuperHouse/OXRS-SHA-StateIO-ESP32-FW).
+Download the latest version of the firmware on [Github](https://github.com/OXRS-IO/OXRS-IO-StateIO-ESP-FW).
 
 ## Supported Hardware
 Input devices 
@@ -61,7 +61,7 @@ And is designed to run on the [RACK32](/docs/hardware/controllers/rack32.md) as 
 
 
 #### License
-Copyright 2020-2022 SuperHouse Automation Pty Ltd [www.superhouse.tv](www.superhouse.tv)
+Copyright 2020-present SuperHouse Automation Pty Ltd [www.superhouse.tv](www.superhouse.tv)
 
 The software portion of this project is licensed under the Simplified
 BSD License. The "licence" folder within this project contains a
